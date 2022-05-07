@@ -8,8 +8,6 @@ import CityCards from "./components/TouristInfoCards";
 
 import Footer from "./components/Footer";
 
-import SearchResults from "./components/Tables";
-
 import "./App.css";
 
 const App = () => {
@@ -17,9 +15,7 @@ const App = () => {
     <div className="App">
       <AppHeader />
       <CityCards />
-      <Bookings>
-        <SearchResults />
-      </Bookings>
+      <Bookings />
       <Footer
         array={[
           "123 Fake Street, London, E1 4UD",
