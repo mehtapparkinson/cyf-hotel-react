@@ -6,7 +6,23 @@
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
+.header {
+  display: flex;
+  width: 100%;
+  background-color: #222;
+}
 
+.header-logo {
+  height: 50px;
+  background-color: #222;
+  padding-left: 15px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px;
+}
 .App-header {
   background-color: #222;
   height: 50px;
@@ -50,6 +66,10 @@ tr {
 .footer {
   padding-top: 20px;
   text-align: center;
+}
+
+li {
+  list-style: none;
 }
 
 .card {
