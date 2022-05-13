@@ -10,7 +10,18 @@ const CityCards = () => {
         />
         <div className="card-body">
           <h1>Glasgow</h1>
-          <a href="peoplemakeglasgow.com" className="btn btn-primary">
+          <p>
+            Glasgow, Gaelic Glaschu, city, west-central Scotland. It is situated
+            along both banks of the River Clyde 20 miles (32 km) from that
+            river’s mouth on the western, or Atlantic, coast. Glasgow is
+            Scotland’s largest city, and it forms an independent council area
+            that lies entirely within the historic county of Lanarkshire.
+          </p>
+          <a
+            Target="_blank"
+            href="https://www.peoplemakeglasgow.com"
+            className="btn btn-primary"
+          >
             Go Glasgow
           </a>
         </div>
@@ -23,7 +34,19 @@ const CityCards = () => {
         />
         <div className="card-body">
           <h1>Manchester</h1>
-          <a href="visitmanchester.com" className="btn btn-primary">
+          <p>
+            Manchester, city and metropolitan borough in the metropolitan county
+            of Greater Manchester urban county, northwestern England. Most of
+            the city, including the historic core, is in the historic county of
+            Lancashire, but it includes an area south of the River Mersey in the
+            historic county of Cheshire. Manchester is the nucleus of the
+            largest metropolitan area in the north of England.
+          </p>
+          <a
+            Target="_blank"
+            href="https://www.visitmanchester.com"
+            className="btn btn-primary"
+          >
             Go Manchester
           </a>
         </div>
@@ -35,8 +58,18 @@ const CityCards = () => {
           className="card-img-top"
         />
         <div className="card-body">
-          <h1>Glasgow</h1>
-          <a href="visitlondon.com" className="btn btn-primary">
+          <h1>London</h1>
+          <p>
+            London is the capital city of the United Kingdom. It is the U.K.’s
+            largest metropolis and its economic, transportation, and cultural
+            centre. London is also among the oldest of the world’s great cities,
+            with its history spanning nearly two millennia.
+          </p>
+          <a
+            Target="_blank"
+            href="https://www.visitlondon.com"
+            className="btn btn-primary"
+          >
             Go London
           </a>
         </div>

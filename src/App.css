@@ -88,3 +88,33 @@ li {
 .highlighted {
   background-color: rgba(255, 255, 0, 0.557);
 }
+
+.container {
+  padding-bottom: 70px;
+}
+
+.resto {
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.resto h3 {
+  padding-bottom: 30px;
+}
+
+.dish {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 400px 60px 60px;
+  padding: 10px;
+  border-top: 1px solid #dfdfdf;
+}
+
+.btn-primary {
+  background-color: rgb(213, 233, 255);
+  color: rgb(22, 7, 89);
+}

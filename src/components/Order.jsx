@@ -7,15 +7,15 @@ const Order = props => {
     setOrders(orders + 1);
   }
   function eraseOne() {
-    if (orders > 0) {
-      setOrders(orders - 1);
-    }
+    // if (orders > 0) {
+    setOrders(orders - 1);
+    // }
   }
   return (
-    <div>
-      <RestaurantButton clickHandler={eraseOne} description="delete" />
+    <div className="dish">
       {props.dishName}: {orders}
-      <RestaurantButton clickHandler={orderOne} description="add" />
+      <RestaurantButton clickHandler={orderOne} description="➕" />
+      <RestaurantButton clickHandler={eraseOne} description="➖" />
     </div>
   );
 };
