@@ -7,9 +7,9 @@ const Order = props => {
     setOrders(orders + 1);
   }
   function eraseOne() {
-    // if (orders > 0) {
-    setOrders(orders - 1);
-    // }
+    if (orders > 0) {
+      setOrders(orders - 1);
+    }
   }
   return (
     <div className="dish">
